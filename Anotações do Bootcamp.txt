@@ -1,0 +1,88 @@
+Git / GitHub
+
+04/12/2021 
+
+# Comandos
+
+## Windows
+cd
+dir
+mkdir
+del / rmdir
+cls
+
+## Unix
+cd
+ls
+mkdir
+rm -rf
+clear
+
+### Criptografar texto SHA1 - Metadados
+`$ openssl shal texto.txt`
+vai sair total de 40 caracteres com números e letras 
+
+## Objetos internos
+
+- *Blobs*
+são arquivos
+echo 'conteudo'
+'blob 9\0conteudo' | openssl1 sha1
+
+- *Trees*
+Se mudar um arquivo vai mudar toda estrutura e leitura
+
+- *Commits*
+Vai juntar tudo, dar sentido a alteração
+
+## Chaves SSH e Tokens
+Sincronizar o Git com o computador
+
+Escrever no terminal Git bash
+`ssh-keygen -t ed25519 -C ronanstuchi@gmail.com`
+Entrar na pasta da chave e escrever
+`cat id_ed25519.pub`
+Copiar a assinatura da chave
+Entrar no Github SSH Keys/Add new e colar na KEY
+
+
+![screenshot-dio.png](:/899f710fa48f4f0484f3be234906bd4c)
+
+git status
+git config --list  (lista de todas as configurações)
+git remote add origin https://github.com.....
+git remote -v (lista os repósitorios que tem remoto)
+git push origin master (empurrar)
+
+Modificar o arquivo
+git status (vai aparecer que modified em vermelho)
+git add * (adiconar)
+git status(vai apararecer modified em verde to unstage )
+
+git pull origin master (pegar a ultima versão)
+git commit -m "ultima versão"
+git push origin master
+
+Pegar um arquivo no git
+git clone https://gitbub..... 
+
+
+### Prova
+
+-Aprendemos que... no Linux fazem? -  Retorna uma lista
+-O que.. distribuidos? - Um sistema que possui...locais
+-O que é markdown - Um arquivo que usa caractetes especiais
+-Qual a diferença... servidor - Seu ambiente de desenvolvimento é local e o servidor, remoto
+-Quando voce tenta empurrar... git irá - Pedir para você...
+-O que comand git clone faz? - Faz um clone do rep.
+-O que acontece quando vc gera commits...Github - Os commits apareceram... 
+-O que é GIT - Um sistema de versionamento de código distribuido
+-O que o comando Git init faz - Inicializa um repositorio..
+-Qual o comando usado para inicializa o Git... - git init
+
+
+## Projeto - Criar um repositório no Github
+
+"Alguém está sentado na sombra hoje porque alguém plantou uma árvore há muito tempo." Warren Buffet
+
+
