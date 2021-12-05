@@ -85,4 +85,7 @@ git clone https://gitbub.....
 
 "Alguém está sentado na sombra hoje porque alguém plantou uma árvore há muito tempo." Warren Buffet
 
+git add .
+git commit -m "adicionar as anotações"
+git push origin main (enviar todos os commits locais para a nuvem)
 
